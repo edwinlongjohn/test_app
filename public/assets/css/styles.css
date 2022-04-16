@@ -1,0 +1,59 @@
+ /* Declaring default font */
+ @font-face{
+    font-family: mont;
+    src:url("/lib/Montserrat-VariableFont_wght.ttf");
+}
+@font-face{
+    font-family: Nuni;
+    src:url("/lib/Nunito-VariableFont_wght.ttf");
+}
+
+/* Base Rules */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Monserrat',mont,'sans-serif';
+}
+p{
+    font-family: 'Nunito',Nuni,'sans-serif';
+    font-size: 20px;
+    line-height:30px;
+    color: #6c757d;
+}
+.r-p{
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+.r{
+    padding-top:80px;
+}
+/* table styles */
+/* #table-sec{
+    background: #d4d4d4;
+} */
+tr td{
+    font-family: "Nunito",Numi, 'sans-serif';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/***** Create part *****/
+
+input.name{
+    border: none;
+    border-bottom: 1px solid rgb(8, 8, 8);
+    border-radius: none!important;
+    width: 70% !important;
+}
+input{
+    width: 75% !important
+}
+.card.create .card-body{
+    background: #ebebeb;
+}
